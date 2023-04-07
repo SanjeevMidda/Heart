@@ -1,0 +1,17 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 20vh;
+    height:20vh;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(2);
+    /* transform: rotate(360deg) */
+}
